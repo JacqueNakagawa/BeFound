@@ -1,0 +1,85 @@
+.cadastro {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+  
+.modal {
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 600px;
+    background-color: #C2D3CD;
+    box-shadow: 16px 40px 64px rgba(41, 15, 0, 0.56);
+    border-radius: 25px;
+    padding: 3px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    margin-left: 110px;
+}
+
+.add {
+    width: 164px;
+    height: 45px;
+    color: black;
+    background-color: #9FA4A9;
+    border-radius: 25px;
+    border: 0.5px #9FA4A9 solid;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    margin-left: 140px;
+}
+
+.field1 {
+    width: 378px;
+    height: 100px;
+    border-radius: 0px 0px 0px 0px;
+    border-bottom: 1px solid black;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 8px;  
+    background:#C2D3CD;
+    margin-top: 010px;
+    margin-bottom: 30px;
+}
+
+.field2 {
+    width: 378px;
+    height: 24px;
+    border-radius: 0px 0px 0px 0px;
+    border-bottom: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 8px;
+    background:#C2D3CD;
+    margin-top: 010px;
+    margin-bottom: 30px;
+}
+
+.inputs {
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}

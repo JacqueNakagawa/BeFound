@@ -1,0 +1,10 @@
+<div *ngFor="let image of images"  class="completo">
+    <div class="desaparecido">
+        <img src="../../../assets/Foto desaparecida.svg" alt="">
+    </div>
+    <div class="infos">
+        <h3>{{ image.name }}</h3>
+        <h4>{{ image.years }} anos</h4>
+        <h4>Visto a última vez: {{ image.last }}</h4>
+    </div>
+</div>

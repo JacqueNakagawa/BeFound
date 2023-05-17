@@ -1,0 +1,21 @@
+.navbar{
+	display: flex;
+	height: 80px;
+    margin-top: -10px;
+    width: 100%;
+	justify-content: space-between;
+    background-color: #C2D3CD;
+}
+
+.material-symbols-outlined {
+    padding: 25px 5px 25px 5px;
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+img.logo1 {
+    max-width: 100%;
+    width: 200px;
+    padding-top: 15px;
+}

@@ -1,0 +1,111 @@
+ body{
+          background: #1E1F25;
+         display: grid;
+         grid-template-rows: 1fr auto;
+         min-height: 100vh;
+         position: relative; /* adiciona position relative no body */
+     }
+    
+    footer{
+        height: 13,5%; /* altera a altura para 10% */
+        background-color: #C2D3CD;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        margin-top: auto; /* adiciona margin-top: auto para manter no final da página */
+    }
+    
+    .footer,
+    .push {
+      height: 50px;
+    }
+    
+.barrainferior {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+    
+    .logo {
+        margin-top: 20px;
+        margin-left: 100px;
+        max-width: 173px;
+        max-height: 110px;
+       }
+    
+    .institucional, .suporte {
+      width: 180px;
+      font-family: 'Lato', sans-serif;
+    }
+    
+    .divisao-linha {
+        height: 100px;
+        border-right: 2px solid black;
+        display: block;
+        margin-left: 50px;
+        margin-right: 130px;
+    }
+    .miolo {
+        display: flex;
+        margin-left: 180px;
+    }
+    
+    .telutil{
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        text-align: right;
+        color: #000000;
+        margin-top: -130px;
+    }
+    
+    .telutil a {
+        display: block;
+        margin-top: -18px;
+        font-style: none;
+        padding-right: 100px;
+    }
+    .barra1 {
+        display: block;
+        font-size: 18px;
+        margin-top: -10px;
+        justify-items: right;
+    }
+    .barra2 {
+        display: block;
+        font-size: 18px;
+        margin-top: -10px;
+    }
+    
+    .copy p{
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-left: -120px;
+    
+    }
+    
+    p {
+        font-family: 'Lato', sans-serif;
+        font-size: 30px;
+        color: black;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    
+    a {
+        text-transform: none;
+        cursor: pointer;
+        color: black;
+        margin: 20px;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    a:hover {
+      color: #27262c;
+    }
+    

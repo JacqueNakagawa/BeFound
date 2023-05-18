@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
 	display: flex;
 	height: 100px;
     margin-top: -10px;
@@ -32,10 +32,10 @@ img.logo1 {
     width: 50%;
 } */
 
-.form-busca{
+/* .form-busca{
     width: 50%;
     text-align: right;
-
+    margin-top: 20px;
 }
 
 .form-busca form{
@@ -45,7 +45,7 @@ img.logo1 {
 
 .form-busca i{
     position: absolute;
-    padding: 40px 5px 25px 5px;
+    padding: 17px 5px 25px 5px;
     color: black;
     font-size: 30px;
 }
@@ -53,9 +53,9 @@ img.logo1 {
 .form-busca input{
     background-color: #c1d2cc;
     padding-left: 40px;
-    height: 40px;
+    height: 40px; */
     /* border: 0; */
-    font-size: 20px;
+    /* font-size: 20px;
     color: black;
     border-radius: 10px;
     border-color: #95a5a0;
@@ -72,4 +72,75 @@ img.logo1 {
 
 ::-ms-input-placeholder{
     color: black;
+}  */
+
+header{
+    margin-bottom: 37px;
 }
+
+header .container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c1d2cc;
+}
+
+header .container nav{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-right: 30px;
+}
+
+header .container .logo{
+    max-width: 100%;
+    width: 30%;
+    padding-top: 15px;
+}
+
+header .container nav ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+header .container nav ul li{
+    list-style: none;
+}
+
+header .container nav ul a{
+    color: black;
+    transition: color .3s;
+    font-size: 5vh;
+    text-decoration: none;
+}
+
+input{
+    background-color: #c1d2cc;
+    padding-left: 40px;
+    height: 40px; 
+    /* border: 0; */
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    border-color: #95a5a0;
+}
+
+.fi fi-br-search{
+    position: absolute;
+    padding: 27px 5px 25px 5px;
+    color: black;
+    font-size: 30px;
+}
+
+
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+/* header .container nav ul a:hover{
+    color: var(--gray-4);
+} */

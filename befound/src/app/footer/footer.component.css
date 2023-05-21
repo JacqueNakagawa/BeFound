@@ -34,6 +34,7 @@
         margin-left: 100px;
         max-width: 173px;
         max-height: 110px;
+        cursor: pointer;
        }
     
     .institucional, .suporte {

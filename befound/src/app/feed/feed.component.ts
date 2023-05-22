@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./feed.component.css']
 })
 export class FeedComponent implements OnInit {
+  qtdeImages = 18
 
   constructor() { 
 

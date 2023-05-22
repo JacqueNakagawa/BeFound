@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SumidoService } from 'src/app/services/sumido.service';
 import { Image } from 'src/app/shared/card.model';
 
 @Component({
@@ -8,16 +9,16 @@ import { Image } from 'src/app/shared/card.model';
 })
 export class CardComponent implements OnInit {
 
-  images: Image[] = [
-    new Image ('Maria Aparecida da Silva', 45, '30/05/2005'),
-    new Image ('Maria Aparecida da Silva', 45, '30/05/2005'),
-    new Image ('Maria Aparecida da Silva', 45, '30/05/2005'),
-  
+  images: any[] = []
 
-  ];
+  constructor(
+    private sumidoService : SumidoService
+  ) { }
 
-  constructor() { }
-
-  ngOnInit(): void { }
+  ngOnInit(): void {
+    this.sumidoService.getSumido().subscribe(
+      resposta => this.images = resposta
+    )
+   }
 
 }

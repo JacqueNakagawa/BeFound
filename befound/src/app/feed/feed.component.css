@@ -68,3 +68,7 @@ h1 {
   .app-header {
     z-index: 1; /* Define a ordem de empilhamento do cabeçalho */
   }
+
+ table{
+  margin-left: 120px;
+ }

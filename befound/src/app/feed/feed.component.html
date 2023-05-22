@@ -6,11 +6,13 @@
     <a ><img src="../assets/Botão adicionar.svg" alt="" class="adicionar" routerLink="/cadastro-desaparecido" href="#"> </a>
 </div>
 
-<div class="container">
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-</div>
+<table>
+  <tr *ngFor="let row of generateRows()">
+    <td *ngFor="let column of generateColumns()">
+      <app-card></app-card>
+    </td>
+  </tr>
+</table>
 
 <app-footer></app-footer>
 

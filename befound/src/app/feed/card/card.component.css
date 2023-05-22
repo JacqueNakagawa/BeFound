@@ -1,5 +1,7 @@
 .completo {
     margin-top: 100px;
+    margin-top: 170px;
+    cursor: pointer;
 }
 
 .infos{
@@ -7,7 +9,7 @@
     height: 83px;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
-    background-color: #ECECEC;
+    background-color: #d1d1d1;
     display: block;
     font-style: none;
     position: relative;
@@ -16,9 +18,10 @@
 
 h3 {
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top:  18px;
 }
 
 h4 {
     margin-left: 15px;
+    margin-top: 8px;
 }

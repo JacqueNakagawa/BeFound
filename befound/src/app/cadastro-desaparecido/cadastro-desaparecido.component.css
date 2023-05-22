@@ -4,7 +4,11 @@
     min-height: 100vh;
     position: relative; /* Define a posição relativa para o container principal */
     padding-bottom: 100px; /* Ajusta o espaço no final do container para a altura do rodapé */
-    background-image: url(../../assets/fundomais.png);
+    background-image: url(../../assets/fundomais.png) ;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #e6e2e1;
 }
 
 .cadastro-img {
@@ -20,7 +24,7 @@
     align-items: center;
     width: 450px;
     height: 600px;
-    background-color: #d1dad7;
+    background-color: #d1d1d1;
     box-shadow: 16px 40px 64px rgba(41, 15, 0, 0.56);
     border-radius: 25px;
     padding: 24px 24px 24px 24px;
@@ -38,9 +42,9 @@ h3 {
     width: 164px;
     height: 45px;
     color: black;
-    background-color: #aab1b8;
+    background-color: #a4a4a4;
     border-radius: 25px;
-    border: 0.5px #aab1b8 solid;
+    border: 0.5px #a4a4a4 solid;
     cursor: pointer;
     font-family: 'Lato', sans-serif;
     font-style: bolder;
@@ -64,7 +68,7 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 16px 8px;  
-    background:#d1dad7;
+    background:#d1d1d1;
     margin-top: 010px;
     margin-bottom: 60px;
 }
@@ -87,7 +91,7 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 16px 8px;
-    background:#d1dad7;
+    background:#d1d1d1;
     margin-top: 010px;
     margin-bottom: 30px;
 }

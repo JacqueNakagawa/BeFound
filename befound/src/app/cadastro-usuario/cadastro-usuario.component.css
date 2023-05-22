@@ -4,6 +4,11 @@
     min-height: 100vh;
     position: relative; /* Define a posição relativa para o container principal */
     padding-bottom: 100px; /* Ajusta o espaço no final do container para a altura do rodapé */
+    background-image: url(../../assets/fundomais.png) ;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #e6e2e1;
 }
 
 .container{
@@ -12,9 +17,9 @@
     margin-top: 60px;
     width: 1112px;
     height: 642px;
-    background-color: #C2D3CD;
+    background-color: #d1d1d1;
     border-radius: 25px;
-    margin-bottom: 140px;
+    margin-bottom: 200px;
 }
 
 .divisao {
@@ -55,7 +60,7 @@ h2 {
     border-bottom: 1px solid black;
     width: 350px;
     margin-left: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .field1 {
@@ -80,7 +85,7 @@ h2 {
     align-items: center;
     padding: 16px 8px;
     
-    background:#C2D3CD;
+    background:#d1d1d1;
     margin-left: 100px;
     margin-top: 18px;
     font-family: 'Lato', sans-serif;
@@ -108,9 +113,9 @@ h2 {
     align-items: center;
     padding: 8px 8px 16px 8px;
     
-    background:#C2D3CD;
+    background:#d1d1d1;
     margin-left: 100px;
-    margin-top: 32px;
+    margin-top: 24px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -125,3 +130,33 @@ h2 {
   .app-header {
     z-index: 1; /* Define a ordem de empilhamento do cabeçalho */
   }
+  
+.add1 {
+    width: 164px;
+    height: 45px;
+    color: black;
+    background-color: #a4a4a4;
+    border-radius: 25px;
+    border: 0.5px #a4a4a4 solid;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-style: bolder;
+    font-size: 20px;
+    margin-left: 210px;
+    margin-top: 100px;
+}
+
+.add2 {
+    width: 164px;
+    height: 45px;
+    color: black;
+    background-color: #a4a4a4;
+    border-radius: 25px;
+    border: 0.5px #a4a4a4 solid;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-style: bolder;
+    font-size: 20px;
+    margin-left: 210px;
+    margin-top: 80px;
+}

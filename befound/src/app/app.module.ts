@@ -31,7 +31,7 @@ import { AppRoutingModule } from './app-routing.module';
     MatIconModule,
     HttpClientModule,
     FormsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
     AppRoutingModule,
   ],
   providers: [],

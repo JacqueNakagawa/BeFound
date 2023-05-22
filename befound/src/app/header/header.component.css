@@ -128,9 +128,9 @@ input{
     border-color: #95a5a0;
 }
 
-.fi fi-br-search{
+.fi-fi-br-search{
     position: absolute;
-    padding: 27px 5px 25px 5px;
+    padding: 35px 5px 25px 50px;
     color: black;
     font-size: 30px;
 }
@@ -140,6 +140,7 @@ input{
     color: black;
     opacity: 1;
 }
+
 
 /* header .container nav ul a:hover{
     color: var(--gray-4);
